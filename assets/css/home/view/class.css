@@ -1,0 +1,220 @@
+.classes {
+  background-color: #ffffff;
+}
+
+.classes .section-title {
+  margin-bottom: 40px;
+}
+
+.classes.grid-page {
+  padding-top: 90px;
+}
+
+.classes.style2 {
+  background: #fff;
+}
+
+.classes.style2 .single-class .content {
+  position: relative;
+}
+
+.classes.style2 .single-class .content .price {
+  height: 65px;
+  width: 65px;
+  line-height: 65px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  position: absolute;
+  right: 20px;
+  top: -30px;
+  background: #228b22;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.classes.style2 .single-class .content .date {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #eee;
+  padding: 6px 18px;
+  border-radius: 30px;
+}
+
+.classes.style2 .single-class .content h3 {
+  line-height: 32px;
+}
+
+.classes.style2 .button {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.classes .single-class {
+  /* background: #edfbec; */
+  border-radius: 20px;
+  margin-top: 30px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.col-12:nth-child(1) .single-class:nth-child(1) {
+    background: #e0f3ff;
+}
+
+.col-12:nth-child(2) .single-class:nth-child(1) {
+    background: #f3e0ff;
+}
+
+.col-12:nth-child(3) .single-class:nth-child(1) {
+  background: #e0fff6;
+}
+
+.col-12:nth-child(4) .single-class:nth-child(1) {
+  background: #e0ffe9;
+}
+
+.col-12:nth-child(5) .single-class:nth-child(1) {
+  background: #ffefe0;
+}
+
+.col-12:nth-child(6) .single-class:nth-child(1) {
+  background: #ffe0e0;
+}
+
+.card-nilai:nth-child(3) {
+    background: #bb02ff;
+}
+
+.card-nilai:nth-child(4) {
+    background: #ffaf00;
+}
+
+.classes .single-class .class-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.classes .single-class .class-image img {
+  display: block;
+  position: relative;
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.classes .single-class .class-image .price {
+  color: #fff;
+  background-color: #228b22;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  padding: 0;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 36px;
+  line-height: 36px;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+.classes .single-class .class-image .price::before {
+  position: absolute;
+  content: "";
+  left: -32px;
+  top: 0;
+  border: 18px solid #228b22;
+  border-left-color: transparent;
+  height: 10px;
+  width: 10px !important;
+  border-left-color: transparent;
+}
+
+.classes .single-class:hover {
+  -webkit-box-shadow: 0px 0px 20px #00000012;
+  box-shadow: 0px 0px 20px #00000012;
+}
+
+.classes .single-class:hover .class-image img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.classes .single-class .content {
+  padding: 0 30px 0 30px;
+  border-top: none;
+}
+
+.classes .single-class .content h3 {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.classes .single-class .content h3 a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #081828;
+}
+
+.classes .single-class .content h3 a:hover {
+  color: #228b22;
+}
+
+.classes .single-class .bottom-content {
+  border-top: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+.bottom-content-1 {
+  padding: 5px 10px 0 10px;
+}
+
+.bottom-content-2 {
+  padding: 5px 10px 20px 10px;
+}
+
+.classes .single-class .bottom-content .review {
+  float: left;
+}
+
+.classes .single-class .bottom-content .review li {
+  display: inline-block;
+}
+
+.classes .single-class .bottom-content .review li i {
+  color: #228b22;
+}
+
+.classes .single-class .bottom-content .review li:last-child {
+  color: #081828;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.classes .single-class .bottom-content .tag {
+  float: right;
+}
+
+.classes .single-class .bottom-content .tag i {
+  color: #228b22;
+  display: inline-block;
+  margin-right: 3px;
+  font-size: 12px;
+}
+
+.classes .single-class .bottom-content .tag a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #081828;
+}
+
+.classes .single-class .bottom-content .tag a:hover {
+  color: #228b22;
+}

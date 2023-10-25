@@ -1,0 +1,232 @@
+/*
+* Template Name: Elmudaris - Responsive Style
+* Template URL: https://elmudaris.com
+* Author: Irsyad Maulana
+*/
+
+/*=====< Start Min-Width >=====*/
+@media (min-width: 360px) {
+  .navbar-header {
+    margin-top: 105px;
+    padding-top: 40px;
+    padding-bottom : 20px;
+  }
+
+  .navbar-header-title {
+    left: 12%;
+    right: 12%;
+  }
+
+  .navbar-header-title h3 {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .navbar-header-image {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .navbar-header-card {
+    margin-top: 0;
+  }
+
+  .navbar-header-card-title {
+    font-size: 12px;
+  }
+  
+  .carousel-inner img {
+      width: 100%;
+      height: auto;
+  }
+  
+/*  .info {
+    margin-top: 150px;
+  }*/
+
+  .games-container{
+    /*top: 1600px;*/
+    max-width: 1000px;
+    padding: 50px;
+  }
+
+  .games-container1 {
+    /*top: 1600px;*/
+    max-width: 1000px;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-header {
+    margin-top: 105px;
+    padding-top: 35px;
+    padding-bottom : 20px;
+  }
+
+  .navbar-header-title {
+    left: 20%;
+    right: 20%;
+  }
+
+  .navbar-header-title h3 {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .navbar-header-image {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .navbar-header-card {
+    margin-top: 0;
+  }
+
+  .navbar-header-card-title {
+    font-size: 16px;
+  }
+
+/*  .info {
+    margin-top: 100px;
+  }*/
+
+  .games-container{
+    /*top: 1600px;*/
+    max-width: 1000px;
+    padding: 100px;
+  }
+
+  .games-container1 {
+    /*top: 1600px;*/
+    max-width: 1000px;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+    margin-top: 105px;
+    padding-top: 35px;
+    padding-bottom : 20px;
+  }
+
+  .navbar-header-title {
+    left: 20%;
+    right: 20%;
+  }
+
+  .navbar-header-title h3 {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .navbar-header-image {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .navbar-header-card {
+    margin-top: 0;
+  }
+
+  .navbar-header-card-title {
+    font-size: 18px;
+  }
+
+/*  .info {
+    top: 750px;
+  }*/
+
+  .games-container {
+    /*top: 1300px;*/
+    max-width: 1000px;
+    padding: 100px;
+  }
+
+  .games-container1 {
+    /*top: 1600px;*/
+    max-width: 1000px;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-header {
+    margin-top: 105px;
+  }
+
+/*  .info {
+    top: 130px;
+  }*/
+
+  .games-container {
+    max-width: 3000px;
+    /*top: 1800px;*/
+    padding: 50px;
+  }
+
+  .games-container1 {
+    /*top: 1600px;*/
+    max-width: 1000px;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-header {
+    margin-top: -0px;
+    padding-top: 25px;
+    padding-bottom : 25px;
+  }
+
+  .navbar-header-title {
+    left: 20%;
+    right: 20%;
+  }
+
+  .navbar-header-container {
+    width: 80%;
+  }
+
+  .carousel-inner img {
+      width: 100%;
+      height: 50%;
+  }
+
+/*  .info {
+    top: 180px;
+  }*/
+
+  .games-container {
+    /*top: 1700px;*/
+    max-width: 3000px;
+    padding: 50px;
+    /*bottom: 1000px;*/
+  }
+
+  .games-container1 {
+    /*top: 1600px;*/
+    max-width: 500px;
+    padding: 50px;
+  }
+
+
+}
+/*=====< End Min-Width >=====*/
+
+/*=====< Start Max-Width >=====*/
+@media (max-width: 992px) {
+  .info .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+  .info .nav-link.active {
+    color: #228b22;
+    background: #eee;
+  }
+} 
+/*=====< End Max-Width >=====*/

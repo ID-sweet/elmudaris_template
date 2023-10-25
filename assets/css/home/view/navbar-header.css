@@ -1,0 +1,132 @@
+/*
+* Template Name: Elmudaris - Navbar-Header Style
+* Template URL: https://elmudaris.com
+* Author: Irsyad Maulana
+*/
+
+.background-navbar-header {
+  z-index: 3;
+  position: absolute;
+  margin-top: 161px;
+  width: 100%;
+  /*height: 200px;*/
+  background-color: #eee;
+}
+
+.navbar-header {
+  z-index: 1030;
+  border-radius: 25px 25px 25px 25px;
+  width: 100%;
+}
+
+.navbar-header-color {
+  box-shadow: 0 1px 5px 0 #ddd;
+  background-color: #fff;
+}
+
+.navbar-header-card-title {
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.navbar-header-card-body {
+  flex: 1 1 auto;
+  padding: 0;
+}
+
+.navbar-header-title {
+  position: absolute;
+  top: -25px;
+  /*right: 30%;
+  left: 30%;*/
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1040;
+  background-color: #228b22;
+  color: #fff;
+  padding: 9px 5px 6px 9px;
+  border-radius: 15px;
+}
+
+.navbar-header-collapse {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar-header-content {
+  display: flex;
+  /*margin-top: 70px;*/
+  /*text-align: center;*/
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.navbar-header-content p {
+  display: flex;
+  font-weight: bolder;
+}
+
+.navbar-header-col {
+  margin:  0 auto;
+}
+
+.navbar-header-col a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-header-image:hover {
+  transition: all .3s ease-in-out;
+  width: 70%;
+}
+
+.navbar-body {
+  z-index: 1030;
+  /*border-radius: 25px 25px 25px 25px;*/
+  width: 100%;
+  margin-top: 150px;
+}
+
+.navbar-body-color {
+  box-shadow: 0 1px 5px 0 #000;
+  background-color: #fff;
+}
+      
+.navbar-body-card {
+  background-color: transparent;
+  /*margin-top: 70px;*/
+  margin-right: 10px;
+  margin-left: 10px;
+  /*margin:  0 auto;*/
+  border: none;
+} 
+
+ .navbar-body-title {
+  position: absolute;
+  top: -9px;
+  right: 30%;
+  left: 30%;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1040;
+  background-color: #ffc107;
+  color: #fff;
+  padding: 9px 5px 6px 9px;
+  border-radius: 15px;
+}  
+
+ .body-title {
+  position: absolute;
+  /*top: -9px;*/
+  right: 30%;
+  left: 30%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  z-index: 1050;
+  /*background-color: #ffc107;*/
+  color: #333;
+  padding: 9px 5px 6px 9px;
+  border-radius: 15px;
+  font-weight: bolder;
+}    

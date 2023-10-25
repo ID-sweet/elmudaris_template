@@ -1,0 +1,122 @@
+#footer_box {
+  position: relative;
+  display: flex;
+  z-index: 3;
+  margin-top: 30px;
+  background: #01040f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer_box h5 {
+  color: #228b22;
+}
+
+.logo-detail p {
+  padding-top: 45px;
+  color: #228b22;
+}
+
+.logo-detail h3{
+  color: #228b22;
+}
+
+.logo-detail img {
+  width: 80px;
+  height: 80px;
+}
+
+.service-link h4 {
+  color: white;
+  padding-bottom: 1px;
+  font-weight: 50;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+.service-link h4 span {
+  font-weight: 500;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+.service-link ul {
+  margin: 0 auto;
+}
+
+.service-link ul li a {
+  font-family: tahoma;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7f8183;
+  padding: 5px 0px;
+  display: inline;
+  transition: 0.3s;
+}
+
+.service-link ul li a:hover {
+  color: #228b22;
+  padding-left: 5px;
+}
+
+.footer-content a {
+  font-family: tahoma;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ef1414;
+}
+
+#footer_box .footer-newsletter {
+  font-size: 15px;
+}
+
+#footer_box .footer-newsletter p {
+  color: #7f8183;
+  position: relative;
+}
+
+#footer_box .footer-box-contact p {
+  color: #7f8183;
+  position: relative;
+}
+
+#footer_box .footer-newsletter form {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #228b22;
+}
+
+#footer_box .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer_box .footer-newsletter form input[type=email] {
+  outline: none;
+}
+
+#footer_box .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #228b22;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+#footer_box .footer-newsletter form input[type=submit]:hover {
+  background: #55d255;
+  color: #000;
+  font-weight: 500;
+}

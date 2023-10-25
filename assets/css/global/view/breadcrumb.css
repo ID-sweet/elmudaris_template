@@ -1,0 +1,39 @@
+/*
+* Template Name: Elmudaris - Breadcrumb Style
+* Template URL: https://elmudaris.com
+* Author: Irsyad Maulana
+*/
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  /* margin-bottom: 1rem; */
+  list-style: none;
+  text-align: center;
+  text-align: center;
+  padding: 9px;
+}
+
+.my-breadcrumb {
+  margin-top: 105px; 
+  background-color: #228b22; 
+  height: 60px;
+}
+
+.my-breadcrumb .breadcrumb-item {
+  color: #fff;
+  justify-content: center;
+}
+
+.my-breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #fff;
+  content: var(--bs-breadcrumb-divider, "/");
+}

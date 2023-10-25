@@ -1,0 +1,88 @@
+/*
+* Template Name: Elmudaris - Navbar Style
+* Template URL: https://elmudaris.com
+* Author: Irsyad Maulana
+*/
+
+.navbar-top {
+  box-shadow: 0 1px 5px 0 rgba(245, 143, 10, 0.5), 0 1px 5px 0 rgba(245, 143, 10, .5);
+  background-color: rgba(245, 143, 10);
+  color: #fff;
+}
+
+.navbar-top-fix {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  left: 10px;
+  z-index: 1060;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.navbar-top-brand {
+  position: absolute;
+  width : 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color : #fff;
+  z-index: 1031;
+  box-shadow: 0 1px 5px 0 rgba(245, 143, 10, 0.5), 0 1px 5px 0 rgba(245, 143, 10, .5);
+}
+
+.navbar-top-brand-img {
+  margin-top: 12px;
+  margin-left: 1px;
+}
+
+.navbar-top-li1 {
+  margin-right: 50px;
+}
+
+.navbar-top-li {
+  padding: 5px 5px 8px 9px;
+  width: 80px;
+  /*border-radius: 15px;*/
+}
+
+.navbar-top-li:hover {
+  border-radius: 0 15px 0 15px;
+  background-color: #55d255;
+  transition: all .5s ease-in-out;
+  box-shadow: 0 10px 20px 0 rgb(5 16 44 / 15%);
+}
+
+.navbar-top-li h6 {
+  margin: 0 auto;
+}
+
+.navbar-top-a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+.navbar-top-a:hover {
+  color: #fff;
+}
+
+.navbar-top-material-symbol {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.navbar-top-form {
+  margin-right: 20px;
+}
+
+.navbar-top-form-button {
+  background-color: #55d255;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.navbar-top-form-button:hover {
+  color: #fff;
+  background-color: #ffc107;
+}

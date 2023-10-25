@@ -1,0 +1,74 @@
+.courses {
+  background-color: #fff;
+}
+
+
+.feature_section{
+  width: 100%;
+  background-color: #fafbfd;
+  height: auto;
+  padding: 10px;
+}
+
+.my-feature {
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 30px;
+
+}
+
+.feature_section .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: rgb(34, 139, 34);
+  border-radius: 50%;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+
+.feature_section .icon::before {
+  position: absolute;
+  content: "";
+  /* left: -8px;
+  top: -8px; */
+  height: 115%;
+  width: 115%;
+  background: #55d255;
+  border-radius: 50%;
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+
+.feature_section .icon i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.image_1{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.meditation_text{
+  width: 100%;
+  float: left;
+  font-size: 30px;
+  color: #353336;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.lorem_tetx{
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #353336;
+  text-align: center;
+  margin-left: 0px;
+}

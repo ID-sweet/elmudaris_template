@@ -1,0 +1,19 @@
+/*
+* Template Name: Elmudaris - Global Style
+* Template URL: https://elmudaris.com
+* Author: Irsyad Maulana
+*/
+
+@import "responsive.css";
+@import "view/navbar.css";
+@import "view/breadcrumb.css";
+@import "view/footer.css";
+@import "view/footer-box.css";
+
+body {
+  background-color: #fff;
+}
+
+.my-top {
+  top: 115px;
+}
